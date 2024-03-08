@@ -1,0 +1,68 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: "IRANSansXBlack";
+
+    src: url("src/assets/fonts/IRANSansXBlack.ttf");
+  }
+
+  @font-face {
+    font-family: "IRANSansXBold";
+    src: url("src/assets/fonts/IRANSansXBold.ttf");
+  }
+
+  @font-face {
+    font-family: "IRANSansXDemiBold";
+    src: url("src/assets/fonts/IRANSansXDemiBold.ttf");
+  }
+  @font-face {
+    font-family: "IRANSansXExtraBold";
+    src: url("src/assets/fonts/IRANSansXExtraBold.ttf");
+  }
+  @font-face {
+    font-family: "IRANSansXLight";
+    src: url("src/assets/fonts/IRANSansXExtraBold.ttf");
+  }
+
+  @font-face {
+    font-family: "IRANSansXMedium";
+    src: url("src/assets/fonts/IRANSansXMedium.ttf");
+  }
+
+  @font-face {
+    font-family: "IRANSansXRegular";
+    src: url("src/assets/fonts/IRANSansXRegular.ttf");
+  }
+  @font-face {
+    font-family: "IRANSansXThin";
+    src: url("src/assets/fonts/IRANSansXThin.ttf");
+  }
+
+  @font-face {
+    font-family: "IRANSansXUltraLight";
+    src: url("src/assets/fonts/IRANSansXUltraLight.ttf");
+  }
+
+  @font-face {
+    font-family: "BNazanin";
+    src: url("src/assets/fonts/BNazanin.ttf");
+  }
+  @font-face {
+    font-family: "NasimB";
+    src: url("src/assets/fonts/NasimB.ttf");
+  }
+  body {
+    font-family: "IRANSansXRegular";
+    text-align: right;
+  }
+  h1,
+  h2 {
+    @apply font-IRANSansXExtraBold  text-txt_de_primary_base text-headingsSize leading-headings;
+  }
+  span {
+    @apply text-txt_de_secondary_base;
+  }
+}
