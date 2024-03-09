@@ -16,8 +16,6 @@ export default function news(){
                 <a href="#">
                     <p className="text-bg_black_base font-IRANSansXDemiBold text-xs ">ارز WIF به معاملات حرفه‌ای اضافه شد.</p>
                 </a>
-
-
             </div>
         </div>
     )
