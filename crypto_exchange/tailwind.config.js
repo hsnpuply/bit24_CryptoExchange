@@ -6,6 +6,9 @@ export default {
   ],
   theme: {
     extend: {
+      fontSize: {
+        headingsSize: '24px',
+      },
       colors:{
         primary:'#1976d2',
         anchor_base: '#1976d2',
@@ -117,7 +120,7 @@ export default {
       },
       container:{
         center:true,
-        padding:'2rem'
+        padding:'1rem'
       },
       fontFamily:{
         IRANSansXBlack:"'IRANSansXBlack','serif'",
@@ -136,9 +139,7 @@ export default {
     lineHeight: {
       'headings': '40px',
     },
-    fontSize: {
-      headingsSize: '24px',
-    }
+
   },
   plugins: [],
 }
