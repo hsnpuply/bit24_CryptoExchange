@@ -18,19 +18,13 @@ import selling_corpratation from '../assets/images/banners/selling-corpratation.
 export default function Banners_section(){
     let [sliderImage,setSliderImage] = useState(1);
 
-    // ()=>{
-    //     if(window.innerWidth >= 500){
-    //         setSliderImage((previmg)=>previmg + 2)
-    //     }else{
-    //         setSliderImage((prev)=>prev+=1)
-    //     }
-    // }
+
 
     const handleBanners = () => {
         if(window.innerWidth >= 800) {
           setSliderImage(3);
         } else {
-          setSliderImage(1);
+          setSliderImage(1.05);
         }
       };
 
@@ -47,7 +41,7 @@ export default function Banners_section(){
             clickable: true,
           }}
         scrollbar={{ draggable: true }}
-      spaceBetween={20}
+      spaceBetween={10}
       slidesPerView={sliderImage}
 
     loop
