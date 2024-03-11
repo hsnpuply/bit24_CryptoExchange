@@ -65,3 +65,15 @@
     @apply text-txt_de_secondary_base;
   }
 }
+
+@layer components {
+  .our-services {
+    width: 100%;
+    background: linear-gradient(
+      180deg,
+      rgba(0, 114, 255, 0),
+      rgba(0, 114, 255, 0.08) 25.89%,
+      rgba(0, 114, 255, 0)
+    );
+  }
+}
