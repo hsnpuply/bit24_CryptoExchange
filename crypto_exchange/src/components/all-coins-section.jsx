@@ -219,7 +219,7 @@ export default function All_coin_Section(){
 							</span>
 
                             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" >
-                                <path d="M14 8L10 12L14 16" stxroke="#1c1d1f" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"></path>
+                                <path d="M14 8L10 12L14 16" stroke="#1c1d1f" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"></path>
                                 </svg>
                         </a>
                     </div>
