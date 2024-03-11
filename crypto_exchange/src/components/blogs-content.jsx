@@ -34,7 +34,7 @@ export default function Blogs_content(){
     return(
         <section className="blgos-section">
             <div className="blogs-content container bg-bg_success_d_base">
-            <h3 className="font-IRANSansXBold text-xl">آخرین مطالب وبلاگ</h3>
+            <h3 className="font-IRANSansXBold text-xl text-txt_de_primary_base">آخرین مطالب وبلاگ</h3>
             <div className="blogs-swiper-contents">
             <Swiper
         modules={[ FreeMode]}
@@ -88,7 +88,7 @@ export default function Blogs_content(){
 
         </div>
         <div className="more-blogs-content flex justify-center items-center ">
-                <span className='text-black font-semibold'>مطالعه بیشتر</span>
+                <span className='text-txt_de_primary_base font-semibold'>مطالعه بیشتر</span>
                 {/* more < arrow */}
                 <svg data-v-2a565d0e="" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M14 8L10 12L14 16" stroke="#1c1d1f" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"></path>

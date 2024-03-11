@@ -3,6 +3,7 @@ import App_introudction from './components/app-introduction'
 import Banners_section from './components/banners_section'
 import Blogs_content from './components/blogs-content'
 import Coin_Section from './components/coins-section'
+import Faq from './components/faq'
 import Header from './components/header'
 import HeroSection from './components/hero_section'
 import Marketing from './components/marketing'
@@ -26,6 +27,7 @@ function App() {
     <App_introudction/>
     <Our_services/>
     <Blogs_content/>
+    <Faq/>
     </main>
     </>
   )
